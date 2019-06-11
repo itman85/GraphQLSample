@@ -1,4 +1,4 @@
-package com.phannguyen.graphqlsample
+package com.phannguyen.githubgraphqlsample
 
 import org.junit.Test
 

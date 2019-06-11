@@ -1,4 +1,4 @@
-package com.phannguyen.graphqlsample
+package com.phannguyen.githubgraphqlsample
 
 import android.os.Build
 import android.support.annotation.RequiresApi
@@ -66,7 +66,7 @@ class DataRepository {
         private class NetworkInterceptor: Interceptor {
 
             override fun intercept(chain: Interceptor.Chain?): Response {
-                return chain!!.proceed(chain.request().newBuilder().header("Authorization", "Bearer <TOKEN>").build())
+                return chain!!.proceed(chain.request().newBuilder().header("Authorization", "Bearer 6a371b8d15593562d52c6baab0efe665daf52fad").build())
             }
         }
 
